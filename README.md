@@ -8,7 +8,7 @@ I enjoy working across the full development cycle — from problem analysis and 
 
 ## Technical Interests & Skills
 
-- **Programming:** Python, JavaScript, SQL (MySQL), PHP (basic)  
+- **Programming:** Python, Java, JavaScript, SQL (MySQL), PHP
 - **Web:** HTML, CSS, JavaScript  
 - **Systems & Engineering:** RISC-V Assembly, SystemVerilog  
 - **Tools:** Git, Figma  
