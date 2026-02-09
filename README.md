@@ -1,20 +1,51 @@
-<!-- Profile README for github.com/KameroonKam -->
+<!-- Pixel-style header -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+</p>
+
+<h1 align="center">Kamronbek Khusainov</h1>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0A0A0A&height=90&section=header&text=Kamronbek%20Khusainov&fontSize=28&fontColor=FFFFFF" />
+  Computer Science · University of Manchester  
+  Reliable software · Data-driven systems · User-focused design
 </p>
-a
+
+---
 
 ### About Me
 
-I’m a Computer Science student at the University of Manchester with a strong interest in building **reliable, user-focused software** and **data-driven systems** with real-world impact.
+- Computer Science student at the **University of Manchester**
+- Focused on building **reliable, user-centered software** with real-world impact
+- Strong interest in **data-driven systems**, AI-assisted tools, and system-level thinking
+- Comfortable working across **software engineering fundamentals, applied projects, and teamwork**
 
-My experience spans software engineering fundamentals, applied projects, and team-based development — from AI-supported prototypes and web applications to systems-level coursework. I’m particularly interested in **mission-driven products**, where technology, data, and user trust matter.
+---
 
-Alongside technical work, I’ve taken on leadership and representative roles, which shaped how I collaborate, communicate, and take ownership in team environments.
+### What I Work With
 
-<!-- Optional: activity graph (can be slightly wide; keep it if it looks good on your profile)
+- **Languages:** Python, Java, SQL, JavaScript  
+- **Core CS:** Data Structures, Algorithms, Computer Architecture, Systems  
+- **Web & Data:** Flask, REST APIs, data analysis workflows  
+- **Tools:** Git, GitHub, Linux, Notion, Figma  
+
+---
+
+### Projects & Experience
+
+- AI-supported prototypes and web applications  
+- Coursework covering low-level systems and high-level software design  
+- Team-based development with emphasis on clarity, ownership, and reliability  
+
+---
+
+### Beyond Code
+
+- Experience in **leadership and representative roles**
+- Strong communication skills shaped by working with diverse teams
+- Value clean structure, responsibility, and long-term maintainability
+
+---
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=KameroonKam&hide_border=true" alt="activity graph" />
+  <a href="https://github.com/KameroonKam">GitHub</a>
 </p>
--->
