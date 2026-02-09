@@ -1,39 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#050505"/>
-      <stop offset="45%" stop-color="#1a1a1a"/>
-      <stop offset="55%" stop-color="#f2f2f2"/>
-      <stop offset="65%" stop-color="#1a1a1a"/>
-      <stop offset="100%" stop-color="#050505"/>
-      <animate attributeName="x1" values="-1;1" dur="4.5s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;2" dur="4.5s" repeatCount="indefinite"/>
-    </linearGradient>
+    <style>
+      .px { shape-rendering: crispEdges; image-rendering: pixelated; }
+    </style>
 
-    <filter id="n">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" />
+    <!-- subtle moving noise -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch">
+        <animate attributeName="baseFrequency" values="0.75;0.85;0.78;0.82;0.75" dur="6s" repeatCount="indefinite"/>
+      </feTurbulence>
       <feColorMatrix type="matrix" values="
-        1 0 0 0 0
-        0 1 0 0 0
-        0 0 1 0 0
-        0 0 0 .10 0"/>
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 .07 0"/>
     </filter>
 
-    <mask id="m">
-      <rect width="1200" height="400" fill="white"/>
-      <g opacity="0.18" filter="url(#n)">
-        <rect width="1200" height="400" fill="black"/>
-      </g>
-    </mask>
+    <!-- vignette -->
+    <radialGradient id="v" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0b0b0b" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.60"/>
+    </radialGradient>
+
+    <!-- pixel grid -->
+    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="400" rx="28" fill="#060606"/>
-  <rect width="1200" height="400" rx="28" fill="url(#g)" mask="url(#m)"/>
+  <!-- background card -->
+  <rect width="1200" height="260" rx="26" fill="#050505"/>
+  <rect width="1200" height="260" rx="26" fill="url(#grid)"/>
+  <rect width="1200" height="260" rx="26" filter="url(#noise)"/>
+  <rect width="1200" height="260" rx="26" fill="url(#v)"/>
 
-  <!-- subtle geometry -->
-  <g opacity="0.10" stroke="#ffffff" fill="none">
-    <path d="M140 260 C 260 120, 420 120, 540 260 S 820 400, 980 240" stroke-width="2"/>
-    <path d="M200 110 L 340 110 L 270 210 Z" stroke-width="1.5"/>
-    <circle cx="920" cy="130" r="44" stroke-width="1.5"/>
+  <!-- scanline -->
+  <g opacity="0.10">
+    <rect x="0" y="0" width="1200" height="2" fill="#fff">
+      <animate attributeName="y" values="-2;262" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Pixel text + smiley -->
+  <g class="px" transform="translate(120 78) scale(6)">
+    <!-- ABOUT (pixel font, handmade blocks) -->
+    <!-- A -->
+    <g transform="translate(0 0)" fill="#f2f2f2">
+      <rect x="0" y="6" width="1" height="7"/>
+      <rect x="4" y="6" width="1" height="7"/>
+      <rect x="1" y="4" width="3" height="1"/>
+      <rect x="1" y="8" width="3" height="1"/>
+    </g>
+    <!-- B -->
+    <g transform="translate(8 0)" fill="#f2f2f2">
+      <rect x="0" y="4" width="1" height="9"/>
+      <rect x="1" y="4" width="3" height="1"/>
+      <rect x="4" y="5" width="1" height="2"/>
+      <rect x="1" y="8" width="3" height="1"/>
+      <rect x="4" y="9" width="1" height="3"/>
+      <rect x="1" y="12" width="3" height="1"/>
+    </g>
+    <!-- O -->
+    <g transform="translate(16 0)" fill="#f2f2f2">
+      <rect x="1" y="4" width="3" height="1"/>
+      <rect x="0" y="5" width="1" height="7"/>
+      <rect x="4" y="5" width="1" height="7"/>
+      <rect x="1" y="12" width="3" height="1"/>
+    </g>
+    <!-- U -->
+    <g transform="translate(24 0)" fill="#f2f2f2">
+      <rect x="0" y="4" width="1" height="8"/>
+      <rect x="4" y="4" width="1" height="8"/>
+      <rect x="1" y="12" width="3" height="1"/>
+    </g>
+    <!-- T -->
+    <g transform="translate(32 0)" fill="#f2f2f2">
+      <rect x="0" y="4" width="5" height="1"/>
+      <rect x="2" y="5" width="1" height="8"/>
+    </g>
+
+    <!-- ME (next line) -->
+    <g transform="translate(0 16)" fill="#f2f2f2">
+      <!-- M -->
+      <rect x="0" y="4" width="1" height="9"/>
+      <rect x="4" y="4" width="1" height="9"/>
+      <rect x="1" y="5" width="1" height="1"/>
+      <rect x="3" y="5" width="1" height="1"/>
+      <rect x="2" y="6" width="1" height="1"/>
+      <!-- E -->
+      <g transform="translate(8 0)">
+        <rect x="0" y="4" width="1" height="9"/>
+        <rect x="1" y="4" width="4" height="1"/>
+        <rect x="1" y="8" width="3" height="1"/>
+        <rect x="1" y="12" width="4" height="1"/>
+      </g>
+    </g>
+
+    <!-- pixel smiley :) on the right -->
+    <g transform="translate(52 2)" fill="#f2f2f2">
+      <!-- :) eyes -->
+      <rect x="0" y="6" width="1" height="1"/>
+      <rect x="4" y="6" width="1" height="1"/>
+      <!-- mouth -->
+      <rect x="1" y="9" width="3" height="1"/>
+      <rect x="0" y="8" width="1" height="1"/>
+      <rect x="4" y="8" width="1" height="1"/>
+
+      <!-- tiny bounce -->
+      <animateTransform attributeName="transform" type="translate"
+        values="52 2; 52 1; 52 2; 52 3; 52 2"
+        dur="3.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- subtle corner pixels -->
+  <g class="px" fill="#f2f2f2" opacity="0.25">
+    <rect x="58" y="44" width="6" height="6"/>
+    <rect x="74" y="44" width="6" height="6"/>
+    <rect x="1120" y="206" width="6" height="6"/>
+    <rect x="1136" y="206" width="6" height="6"/>
   </g>
 </svg>
+
