@@ -2,10 +2,10 @@
   <img src="./assets/banner.svg" alt="Profile banner" />
 </p>
 
-## About me
+## Hi, I'm Kamron 👋
 
-I’m Kamron Khusainov — BSc (Hons) Computer Science student at the University of Manchester.  
-I like building reliable, well-structured systems and turning complex ideas into clear, working solutions.
+Computer Science student at the University of Manchester.
+I build clear, well-structured systems and enjoy turning complex ideas into working solutions.
 
 ---
 
@@ -17,37 +17,23 @@ I like building reliable, well-structured systems and turning complex ideas into
 
 ---
 
-## Selected projects
+## Selected work
 
-- **NeuroGuard** — AI mental state monitoring system (Python, Flask, scikit-learn)  
-  Estimates mental state from lifestyle inputs and provides personalised feedback.
-
-- **SPOT V3** — student coursework platform redesign (React, MySQL)  
-  Built for deadline tracking + grade analytics; awarded **“Most Carefully Thought-Out Application.”**
-
-- **HeyNinja** — 2D game prototype (Godot, GDScript)  
-  Player movement, animation states, combat mechanics, collision/hitboxes, basic enemy AI, custom assets.
-
+- **NeuroGuard** — AI-based mental state monitoring system (Python, Flask, scikit-learn)  
+- **SPOT V3** — student coursework platform redesign with analytics (React, MySQL)  
+- **HeyNinja** — 2D game prototype with custom assets and basic AI (Godot)
 ---
 
-## Now
-
-- Studying: Architecture & Engineering, Programming (Python/Java), OS, Data Science  
-- Improving: code quality, structure, and documentation  
-- Building: coursework + small side projects  
-
----
 
 ## Tech
 
-- **Languages:** Python, Java, JavaScript, SQL  
-- **Systems:** RISC-V Assembly, SystemVerilog  
-- **Tools:** Git, Linux, Flask, React, MySQL, Figma  
+Python · Java · JavaScript · SQL  
+RISC-V · SystemVerilog · Git · Linux · React · Flask
 
 ---
 
 ## Links
 
-- GitHub: https://github.com/YOUR_USERNAME  
+- GitHub: https://github.com/KameroonKam  
 - LinkedIn: https://linkedin.com/in/kamron-khusainov  
 - Email: kamronbek.khusainov@student.manchester.ac.uk
