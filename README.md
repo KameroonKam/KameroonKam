@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/about.svg" alt="Profile_banner" />
+  <img src="./assets/banner.svg" alt="Profile_banner" />
 </p>
 
 ## Hi, I'm Kamron 👋
