@@ -1,51 +1,53 @@
-<!-- Pixel-style header -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%">
+  <img src="./assets/banner.svg" alt="Profile banner" />
 </p>
 
-<h1 align="center">Kamronbek Khusainov</h1>
+## About me
 
-<p align="center">
-  Computer Science · University of Manchester  
-  Reliable software · Data-driven systems · User-focused design
-</p>
+I’m Kamron Khusainov — BSc (Hons) Computer Science student at the University of Manchester.  
+I like building reliable, well-structured systems and turning complex ideas into clear, working solutions.
 
 ---
 
-### About Me
+## These days I’m focused on
 
-- Computer Science student at the **University of Manchester**
-- Focused on building **reliable, user-centered software** with real-world impact
-- Strong interest in **data-driven systems**, AI-assisted tools, and system-level thinking
-- Comfortable working across **software engineering fundamentals, applied projects, and teamwork**
-
----
-
-### What I Work With
-
-- **Languages:** Python, Java, SQL, JavaScript  
-- **Core CS:** Data Structures, Algorithms, Computer Architecture, Systems  
-- **Web & Data:** Flask, REST APIs, data analysis workflows  
-- **Tools:** Git, GitHub, Linux, Notion, Figma  
+- Computer Architecture, Operating Systems, and core CS fundamentals  
+- Backend development and applied problem-solving  
+- Small, thoughtful projects with clean structure and purpose  
 
 ---
 
-### Projects & Experience
+## Selected projects
 
-- AI-supported prototypes and web applications  
-- Coursework covering low-level systems and high-level software design  
-- Team-based development with emphasis on clarity, ownership, and reliability  
+- **NeuroGuard** — AI mental state monitoring system (Python, Flask, scikit-learn)  
+  Estimates mental state from lifestyle inputs and provides personalised feedback.
 
----
+- **SPOT V3** — student coursework platform redesign (React, MySQL)  
+  Built for deadline tracking + grade analytics; awarded **“Most Carefully Thought-Out Application.”**
 
-### Beyond Code
-
-- Experience in **leadership and representative roles**
-- Strong communication skills shaped by working with diverse teams
-- Value clean structure, responsibility, and long-term maintainability
+- **HeyNinja** — 2D game prototype (Godot, GDScript)  
+  Player movement, animation states, combat mechanics, collision/hitboxes, basic enemy AI, custom assets.
 
 ---
 
-<p align="center">
-  <a href="https://github.com/KameroonKam">GitHub</a>
-</p>
+## Now
+
+- Studying: Architecture & Engineering, Programming (Python/Java), OS, Data Science  
+- Improving: code quality, structure, and documentation  
+- Building: coursework + small side projects  
+
+---
+
+## Tech
+
+- **Languages:** Python, Java, JavaScript, SQL  
+- **Systems:** RISC-V Assembly, SystemVerilog  
+- **Tools:** Git, Linux, Flask, React, MySQL, Figma  
+
+---
+
+## Links
+
+- GitHub: https://github.com/YOUR_USERNAME  
+- LinkedIn: https://linkedin.com/in/kamron-khusainov  
+- Email: kamronbek.khusainov@student.manchester.ac.uk
